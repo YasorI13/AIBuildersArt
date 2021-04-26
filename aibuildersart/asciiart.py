@@ -151,3 +151,59 @@ class Batman:
         
     def __str__(self):
         return self.name
+
+class DekchaiYa:
+    '''
+    test = UncleEngineer()
+    test.art()
+    '''
+    def __init__(self):
+        self.name = 'Dekchai Ya'
+
+    def art(self):
+        asciiart = '''
+                         .mm
+                      .mMMM       .mmmm.
+                     /MMMMM    .mMMMMMM)
+                    /MMMMMM.  .mMMMMM"'
+                    MMMMMMM| ,MMMMMMM'
+                    MMMMMMM| mMMMMM'
+                    \MMMMMMMSsMMM/'
+                    `MMM.sSSSSsMsSs
+                   .. /SSSSSSSSsSSSs.
+                  (SSss.SSSSSS/SSSSSSs,
+                   `SSSSsSSS'SS/sSSS"S)
+                    SSSSSSSNNNNn.SSSss,
+                   (SSSSSSSsNNNNN)SSSSs,__
+                   `"SSSsSSSSs~N~sSSSSS)MMMMmmm
+                      SSSSSSSSSS\SSSS"mMMMMMMMMMMm..        .mM|
+                  mmMMmSSSSSSS"mMMMMMMMMMMMMMMMMMMMMMMmm.mmmMMMM)
+\Mm..        mmMMMMMMMMMmmmmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmMM
+ \MMMmm.mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/"      "`MMMMMMMMmMM/
+ |MMMMMMmMMMMMMMMMMMMMMMMMM"""""MMMMMMMMMMM|         \MMMMMMMMMM'
+  M\MMMMMMMMMMMMMMMMMMM"'          `.MMMMM(           \MMMMMMMM/
+  \MmMMMMMMMMMMMMMMMM"'               `.MM/            \MMMMMMM/
+   \MMmMMMMMMMMMMMMM/                   `M|             )MMMMMM
+    \MMMMMMMMMMMMMMM'                    "               MMMMM/
+    |MMMMMMMMMMMMMM/                                     MMMM/
+     \MMMMMMMMMMMMM(                                     MMMM'
+      \MMMMMMMMMMMM|                         ...         MMM/
+       \MMMMMMMMMMMM\                  .o.   OOOo       )MMM'
+       `MMMMMMMMMMMMM.                oOOO   OOOOo      /MM/
+        \MMMMMMMMMMMMM\              (OOOO   `OOOO     /MMM/
+         \MMMMMMM""""MM\.             OOOO  ___`"'    ,mMMM(_
+          \MMMM/       "-.             ".**"'  )***   /      '.
+           \MM(                   .-'- (**(   .**** .----,.   )
+            \M(                   `    (*********/    /   '  /
+             \`.       ..-----\          """"""      /      /
+              ``.     `    `\.                     ,'     /'
+                \.           `\.                .-'    ,/'
+                  `\.           `-._________--'      .'
+                     ``-..                     /  _,'
+                          ""`--____\.       ,/'"""
+                                    `\____/'
+        '''
+        print(asciiart)
+        
+    def __str__(self):
+        return self.name
